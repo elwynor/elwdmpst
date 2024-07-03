@@ -1,0 +1,6 @@
+; Filename: ELWDMPST_LIB.DEF
+LIBRARY ELWDMPST.DLL
+; *** Visual Studio 2019 EXPORT ALIASES ONLY ***
+; Announcer - Copyright (c) 2024 Elwynor Technologies
+EXPORTS
+    init__elwdmpst=_init__elwdmpst	@1

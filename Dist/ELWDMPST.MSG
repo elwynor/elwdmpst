@@ -1,0 +1,59 @@
+
+LEVEL3 {Elwynor Technologies: Announcer}
+
+ This is the key level that a user must have to not see
+ the broadcase message. For example, if you want only demo
+ users to see the message, you would make the key NORMAL.
+
+PSTKEY {PAYING} S 15 Key to not be pestered
+
+
+LEVEL4 {Elwynor Technologies: Announcer}
+
+ This is the number of seconds between each message
+ broadcast.
+
+PSTSEC {How many seconds between messages? 600} N 30 3600
+
+ Answer YES if you want users who see the message to also
+ have their computers "beep"; otherwise answer NO.
+
+DOBEEP { "Beep" users with message? YES} B
+
+ Answer YES if you want users who are in the Editor to
+ receive your message; otherwise, answer NO.
+
+EDITBUG { Send message to users in the Editor? NO} B
+
+ This is the name of the Editor module on your system. It
+ is used to determine when a user is in the Editor so we
+ can prevent that user from being bothered then.
+ Normally you should NOT change this unless you are running
+ an editor module with a different name from the default.
+
+EDTNAM {Editor} S 24 Name of Editor module
+
+
+LEVEL6 {Elwynor Technologies: Announcer}
+
+ This is the actual message that users will see.
+
+PSTMSG {[0m
+
+[1;32mBecoming a member of N+SYSTEM_NAME is easy! By Paying:
+
+$15 Monthly Internet Access, Or $20 For Slip/CSlip/PPP Access
+you'll get UNLIMTED Access For 30 days.
+
+And Just For Telnetters From Outside Our Local Calling Area
+
+$5  For 30 days, $25 for 180 days of UNLIMITED Local Access
+
+Hit "P" from the MAIN MENU for more information on how to purchase time.
+
+
+You'll have a LOT MORE fun as a paying member!
+Brought to you by your friends at N+SYSTEM_NAME.
+
+} T Message to pester people with
+

@@ -1,0 +1,57 @@
+
+                Release Notes for Announcer 1.0
+                -------------------------------
+        Thank you for your interest in Announcer. This module is extremely
+        basic, but it gives you the ability to send global broadcasts to 
+        users you select by key at intervals you choose. This version 
+        supports one broadcast message. You will definitely want to edit 
+        this message right away in CNF.
+
+        You control who gets the broadcast by key; the default is that 
+        only DEMO users get them, but if you change the key to SUPER for 
+        example, everyone but those with the SUPER key will get the 
+        broadcasts. You also choose how many seconds come between 
+        broadcasts. All of this is configurable in CNF.
+
+        While this is a very rudimentary program, it does the job. It is 
+        available FREE to Worldgroup Sysops. For more information about 
+        Elwynor Technologies products visit http://www.elwynor.com or 
+        telnet://bbs.elwynor.com
+
+                Release Notes for Announcer 1.1
+                -------------------------------
+        Added the option to not pester users who are in the Editor.
+
+                Release Notes for Announcer 1.2
+                -------------------------------
+        Removed the option to not pester users who are in the Editor, 
+        due to a bug.
+
+                Release Notes for Announcer 1.3
+                -------------------------------
+        Required an access code to get information on the users. Allowed
+        for colorizing the MSG files.
+        
+                Release Notes for Announcer 1.4
+                -------------------------------
+        Removed the requirement for an access code.
+        Added option to beep the user on the message display.
+        Re-added the option to not pester users in the Editor.
+        Re-organized MSG file to proper LEVEL3/4/6
+
+                Release Notes for Announcer 1.4W
+                --------------------------------
+        Upgraded to Worldgroup 3.0 (by Mike Baker of Rifster)
+        
+                Release Notes for Announcer 1.5
+                -------------------------------
+        Upgraded to Worldgroup 3.2. Elwynor Technologies took over
+        maintenance.
+        
+        Upgraded to Major BBS V10. 
+
+                ---IMPORTANT NOTICE---
+        This module is totally freeware, and there is no charge 
+        whatsoever for its use by anyone. However, it is Copyright (C) 
+        2021-2024 Elwynor Technologies, with all rights reserved. 
+
